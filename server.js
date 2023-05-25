@@ -8,6 +8,8 @@ app.get("/", (req, res)=> {
 })
 app.get('/micah', (req,res) => {res.send("Hello Micah")});
 
+app.get('/andra', (req,res) => {res.send("Hello Andra!")});
+
 app.listen(3000, ()=> {
     console.log("Listening");
 })
